@@ -149,7 +149,7 @@ class App extends React.Component {
             />
           </Compon2>
         </Container1>
-        <Line>f</Line>
+        <Line>_</Line>
           <b>Trip end</b>
         <Container1>
           <Compon1>
@@ -166,7 +166,7 @@ class App extends React.Component {
             />
           </Compon2>
         </Container1>
-        <Line>f</Line>
+        <Line>_</Line>
           <b>Pickup & return location</b>
         <Container2>
           <Location
@@ -174,7 +174,7 @@ class App extends React.Component {
             // priceAir={priceAir}
           />
         </Container2>
-        <Line>f</Line>
+        <Line>_</Line>
         <Container3
           onClick={() => {
             this.addRange(this.state.newRange);

@@ -78,9 +78,9 @@ class Location extends React.Component {
             <Header onClick={this.toggleList}>
                 <div className="dd-header-title">{headerTitle}</div>
             </Header>
-            {listOpen && 
+            {listOpen &&
             <div>
-              <Line>f</Line>
+              <Line>_</Line>
                 <div>
                   CAR LOCATION
                 </div>
@@ -93,7 +93,7 @@ class Location extends React.Component {
                 <div>
                   We’ll send you the exact address once your trip is booked.
                 </div>
-                <Line>f</Line>
+                <Line>_</Line>
                 <div>
                   AIRPORT
                 </div>
@@ -103,19 +103,19 @@ class Location extends React.Component {
                     <div>$70</div>
                     {/* <div>{this.props.priceAir}</div> */}
                 </Container2>
-                <Line>f</Line>
+                <Line>_</Line>
                  <div>
                   DELIVERY
                 </div>
                 <Container2>
                   <Form grab={this.grabDeliveryAddress}/>
                 </Container2>
-                <Line>f</Line>
+                <Line>_</Line>
             </div>
                 }
           </div>
         )
       }
   }
-  
+
   export default Location;
