@@ -1,36 +1,48 @@
-#Info {
-  display: block;
-}
-
-#Carousel {
-
-
-}
-
-body {
-  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
+/*
+.Checkout_desc_reviews {
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 #Description {
   float: left;
-  width: 70%;
-
+  width: 60%;
 }
 
 
 #CheckOut {
-  float: right;
-  display:inline-block;
-  width: 30%;
+  float: left;
+  width: 40%;
 }
 
 #Reviews {
   margin-bottom: 50px;
   clear: left;
-  margin-left: 90px;
+  margin-left: 250px;
+}*/
+
+body {
+  font-family: BasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;
 }
 
-.Container {
-  margin-left: 300px;
-  margin-right: 300px;
+.mainContainer {
+  width: 900px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar {
+  float: right;
+  width: 300px;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.layoutSingleColumn {
+  float: left;
+  width: 575px;
 }
